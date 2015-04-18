@@ -8,6 +8,4 @@
         node server.js
 
 - access index.html at localhost:3000
-- use firebug network tab to see the difference between stream and non-streamed data:
--- for streamed data there is less waiting time but longer overall time
--- vice versa for non-streamed data
+- use firebug network tab to see the difference between stream and non-streamed data: for streamed data there is less waiting time but longer overall time and vice versa for non-streamed data
