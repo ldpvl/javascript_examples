@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <input type="button" value="Request Data" onclick="sendRequestToServer(false)"/>
+        <input type="button" value="Request Streamed Data" onclick="sendRequestToServer(true)"/>
+        <script>
+            function httpGet(theUrl) {
+                var xmlHttp = null;
+                xmlHttp = new XMLHttpRequest();
+                xmlHttp.open("GET", theUrl, false);
+                xmlHttp.send(null);
+                console.log("Request sent to " + theUrl)
+                return xmlHttp.responseText;
+            }
+
+            function sendRequestToServer(streamed) {
+                var responseText
+                if (streamed) {
+                    responseText = httpGet('http://localhost:3000/streamed');
+                } else {
+                    responseText = httpGet('http://localhost:3000/normal');
+                }
+            }
+        </script>
+    </body>
+</html>

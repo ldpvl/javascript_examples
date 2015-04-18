@@ -1,0 +1,17 @@
+{
+  "name": "compressed_stream",
+  "version": "1.0.0",
+  "description": "node.js example for sending a compressed stream",
+  "main": "server.js",
+  "dependencies": {
+    "compression": "^1.4.3",
+    "express": "^4.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "author": "ld",
+  "license": "ISC"
+}
