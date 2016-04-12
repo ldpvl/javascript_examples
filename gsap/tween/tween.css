@@ -1,0 +1,11 @@
+.dot {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border-radius: 100%;
+  margin-right: 6px;
+  border: 3px #2b4d66 solid;
+}
