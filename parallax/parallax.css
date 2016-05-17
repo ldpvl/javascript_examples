@@ -1,0 +1,28 @@
+.background {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.background > div {
+    height: 200%;
+    background-size: cover;
+    position: relative;
+    top: -100%;
+}
+
+.beachBackground {
+    background-image: url('img/beach.jpg');
+}
+
+.dotBackground {
+    background-image: url('img/dot.png');
+}
+
+.vectorBackground {
+    background-image: url('img/vector.jpg');
+}
+
+.abstractBackground {
+    height: 100vh;
+    background-image: url('img/abstract.png');
+}
