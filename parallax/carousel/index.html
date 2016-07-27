@@ -14,17 +14,20 @@
     <div class="owl-carousel owl-theme">
         <div class="item">
             <div id="beach" class="background">
-                <div class="beachBackground"></div>
+                <!-- Use of img has performance benefits over background.
+                     However img and background usually serve different purposes
+                     therefore a choice needs to be made. -->
+                <img id="beachBg" src="img/beach.jpg">
             </div>
         </div>
         <div class="item">
             <div id="dot" class="background">
-                <div class="dotBackground"></div>
+                <img src="img/dot.png">
             </div>
         </div>
         <div class="item">
             <div id="vector" class="background">
-                <div class="vectorBackground"></div>
+                <img src="img/vector.jpg">
             </div>
         </div>
     </div>

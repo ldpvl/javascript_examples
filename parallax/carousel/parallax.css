@@ -3,23 +3,11 @@
     overflow: hidden;
 }
 
-.background > div {
+.background > img {
     height: 200%;
-    background-size: cover;
+    object-fit: cover; /* not supported in IE */
     position: relative;
     top: -100%;
-}
-
-.beachBackground {
-    background-image: url('img/beach.jpg');
-}
-
-.dotBackground {
-    background-image: url('img/dot.png');
-}
-
-.vectorBackground {
-    background-image: url('img/vector.jpg');
 }
 
 .abstractBackground {

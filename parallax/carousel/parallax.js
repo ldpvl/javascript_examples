@@ -35,15 +35,15 @@
             autoplayHoverPause: false
         })
 
-        var beachBackground = $('#beach > div');
-        var dotBackground = $('#dot > div');
-        var vectorBackground = $('#vector > div');
+        var beachBackground = $('#beach > img');
+        var dotBackground = $('#dot > img');
+        var vectorBackground = $('#vector > img');
 
         new ScrollMagic.Scene({ triggerElement: ".owl-carousel" })
             .setTween(beachBackground, { y: "80%", ease: Power1.easeInOut })
             .addIndicators()
             .addTo(controller);
-        
+
         new ScrollMagic.Scene({ triggerElement: ".owl-carousel" })
             .setTween(dotBackground, { y: "80%", ease: Power1.easeInOut })
             .addIndicators()
