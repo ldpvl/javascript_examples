@@ -3,10 +3,22 @@
         -webkit-transition: all .35s;
         -moz-transition: all .35s;
         transition: all .35s;
-        padding: 15px 0;
+        padding: 15px 15px;
     }
     .navbar-default.affix {
         padding: 0;
     }
+    .navbar-brand {
+        -webkit-transition: all .35s;
+        -moz-transition: all .35s;
+        transition: all .35s;
+        padding: 0px;
+    }
+    .navbar-brand > img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .navbar-default.affix .navbar-brand {
+        padding: 10px;
+    }
 }
-
