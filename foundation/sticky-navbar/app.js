@@ -15,13 +15,13 @@
     // https://learn.jquery.com/using-jquery-core/document-ready/
     $(function () {
 
+        console.log('The DOM is ready');
+
         $('#mainNav').affix({
             offset: {
                 top: 30
             }
         });
-
-        console.log('The DOM is ready');
 
     });
 
