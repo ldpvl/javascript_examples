@@ -1,0 +1,13 @@
+body {
+    background-color: dimgray;
+}
+
+.fade {
+    width: 90%;
+    margin: 0 auto;
+}
+
+img {
+    height: 50vh;
+    margin: 0 auto;
+}
