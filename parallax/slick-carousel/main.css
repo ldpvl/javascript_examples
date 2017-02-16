@@ -1,0 +1,17 @@
+.background {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.background > img {
+    height: 200%;
+    object-fit: cover;
+    /* not supported in IE */
+    position: relative;
+    top: -100%;
+}
+
+.abstractBackground {
+    height: 100vh;
+    background-image: url('img/abstract.png');
+}
